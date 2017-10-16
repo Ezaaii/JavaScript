@@ -1,11 +1,12 @@
-function splitString(entree, separator) {
-  var arrayOfStrings = entree.split(separator);
-  for (var i=0; i < arrayOfStrings.length; i++)
-  console.log(arrayOfStrings[i] + " / ");
-}
-var virgule = ",";
-var entree = prompt("Choisissez un mot.");
-splitString(entree, virgule);
+//demande le mot à deviner//
+var str = prompt("Choisissez un mot.");
+//séparateur de lettres//
 let mot=[];
-mot.push(entree);
+mot.push(str);
 console.log(mot)
+var lettres = str.match(/.{1,1}/g);
+console.log(lettres);
+//affiche les nombre de lettres à deviner//
+var bite = new Array(lettres.length);
+console.log(bite);
+//tableau de lettres devinées//
