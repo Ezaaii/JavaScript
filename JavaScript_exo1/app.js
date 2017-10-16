@@ -1,0 +1,10 @@
+var nom = prompt("Quel est votre nom?");
+document.write("Nom : " + nom +"<br>");
+var pays = prompt("Où habitez vous?");
+document.write("Pays : " + pays +"<br>");
+var métier = prompt("Quel est votre métier?");
+document.write("Métier : " + métier +"<br>");
+var marié = prompt("A qui êtes vous marié?");
+document.write("Conjoint(e) : " + marié +"<br>");
+var enfants = prompt("Combien d'enfants avez-vous?");
+document.write("Nombre d'enfants : " + enfants + " enfants<br>");
