@@ -1,0 +1,80 @@
+body {
+margin: 0;
+padding: 0;
+width: 100%;
+height: 100%;
+background-color: #9996FF;
+}
+.bloc{
+  display: block;
+  margin : 0 auto;
+  width: 1000px;
+  height: 800px;
+  margin-top: 30px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 0px #7370BF;
+  background-color: white;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 30%;
+  height: 80%;
+  padding-top: 0px;
+  font-family: arial;
+  font-size: 24px;
+  text-align: center;
+}
+.text .hoverMe{
+  display: block;
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  opacity: 100%;
+  margin-bottom: 10px;
+}
+.hidden{
+  opacity: 0;
+}
+#reset{
+  display: block;
+  padding-top: 10px;
+  height: 40px;
+  width: 100px;
+  background-color: blue;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+#axe-x, #axe-y{
+  width: 120px;
+  height: 40px;
+  padding-top: 10px;
+  background-color: yellow;
+  margin-bottom: 10px;
+}
+.text h3{
+  background-color: #99CFFF;
+}
+.boutons{
+  display: block;
+  margin: 0 auto;
+  width: 500px;
+  height: 50px;
+  font-family: arial;
+  font-size: 24px;
+  text-align: center;
+}
+.button{
+  display: block;
+  margin: 0 auto;
+  float: left;
+  margin-left: 50px;
+  width: 95px;
+  height: 45px;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  background-color: #99CFFF;
+}
