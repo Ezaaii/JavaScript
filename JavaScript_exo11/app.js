@@ -1,4 +1,6 @@
-//CHARGER LE JSON
+///////////////////
+//CHARGER LE JSON//
+///////////////////
 function loadjson(toLoad, callback) {
   console.log("> loadJason(" + toLoad + ", callback);");
   var loadData = new XMLHttpRequest();
@@ -14,27 +16,36 @@ function loadjson(toLoad, callback) {
   console.log("loadData : " + loadData);
 }
 
-//FUNCT PRINCIPALE
+////////////////////
+//FUNCT PRINCIPALE//
+////////////////////
 function main(){
     console.log("> stating main() function");
+    //on crée deux variable qui vont retenir les infos du json
     var truejson = [];
     var people = [];
+    // on appelle le json
     var toLoad = "https://raw.githubusercontent.com/becodeorg/Lovelace-promo-2/master/Parcours/JavaScript/11-AJAX/files/data.json"
     loadjson(toLoad, function(response){
       truejson = JSON.parse(response);
       people = JSON.stringify(truejson);
       console.log("peopleList : \n" + people);
       document.write("<h2>people : </h2>" + people);
-      document.write("<h2>randScore : </h2>")
+      document.write("<h2>randScore : </h2>");
+
+      ////////////////////////////
+      //RANDOM NUMBER 0 /-/ 1000//
+      ////////////////////////////
       for (let i in truejson) {
-        //random entre 0 et 1000
+        //le code du mathrandom
         var randomScore = Math.floor(Math.random()*1001);
-        console.log(randomScore);
+        //on met le score en lien avec le json
         truejson[i].score = randomScore;
         document.write("<br/>" + truejson[i].name + " : " + truejson[i].score);
         console.log("randomScore : " + truejson[i].score);
       } //fin randomScore
 
+      //sort qui va trier les scores
       truejson.sort(function(a, b) {
          return a.score - b.score;
       }); //fin sort
@@ -43,7 +54,10 @@ function main(){
       console.log("people : \n" + people);
       document.write("<h2>people (after score)</h2>" + people);
       document.write("<h2>Arrays</h2>");
-      //tri par score
+
+      /////////////////
+      //TRI PAR SCORE//
+      /////////////////
       //on crée 3 string pour séparer les ppl
       var arrayA = []; // > 750
       var arrayB = []; // > 500
@@ -59,12 +73,15 @@ function main(){
           arrayA.push(ppl);
         }
       }//fin tri par score
+
       document.write("A : " + arrayA);
       document.write("<br/>B : " + arrayB);
       document.write("<br/>C : " + arrayC);
 
-      //tri par personnes venant de Bahrain
-      //nouvel string pour les ppl de bar
+      ///////////////////////////////////////
+      //tri par personnes venant de Bahrain//
+      ///////////////////////////////////////
+      //nouveau string pour les ppl de bar
       var frombar = [];
       for (let i in truejson) {
         var from = JSON.stringify(truejson[i].country);
@@ -78,13 +95,17 @@ function main(){
       console.log("How much from Bahrain : " +combien);
        document.write("<h2>How much from Bahrain</h2>" + combien);
 
-      //score max et min
+      ////////////////////
+      //score max et min//
+      ////////////////////
+      //new strin pour lister les scores
       var listScore = [];
       for (let i in truejson) {
         var score = truejson[i].score;
-        listScore.push(score)
+        listScore.push(score);
       }
       console.log("listScore : \n" + listScore);
+      //var pour trouver les min et max
       var min = Math.min(...listScore);
       var max = Math.max(...listScore);
       console.log("min : " + min + "\nmax : " + max);
