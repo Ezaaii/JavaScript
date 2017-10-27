@@ -1,0 +1,54 @@
+body {
+  width: 100%;
+  background-image: url(http://www.becode.org/partners/assets/css/images/bg.png);
+  background-repeat: repeat;
+}
+.container{
+  display: block;
+  margin: 0 auto;
+  width: 76%;
+  text-align: center;
+  font-family: arial;
+}
+.title{
+  margin-bottom: 50px;
+}
+.container h1{
+  font-size: 2.5em;
+  color: menu;
+}
+.container p{
+  font-size: 1.4em;
+  color: gray;
+}
+.blocs{
+  display: flex;
+  margin: 0 auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 89%;
+  height: inherit;
+}
+.blc{
+  display: block;
+  margin: 0 auto;
+  width: 380px;
+  height: 380px;
+  background-color: white;
+  box-shadow: 3px 3px 3px 3px lightgray;
+  border-radius: 1%;
+  margin-bottom: 40px;
+}
+.img{
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+  height: 65%;
+  background-color: lightgray;
+}
+.blc a{
+  text-decoration: none;
+  color : menu;
+  height: 100%;
+  width: 100%;
+}

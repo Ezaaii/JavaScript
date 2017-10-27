@@ -1,0 +1,68 @@
+[
+  {
+    "name" : "Karen",
+    "post" : "CEO",
+    "img" : "http://www.becode.org/partners/images/karen.jpg",
+    "link" : "https://www.linkedin.com/in/karenboers"
+  },
+  {
+    "name" : "Cédric",
+    "post" : "COO",
+    "img" : "http://www.becode.org/partners/images/cedric.jpg",
+    "link" : "https://be.linkedin.com/in/cyance"
+  },
+  {
+    "name" : "Eddy",
+    "post" : "Charleroi's Director",
+    "img" : "http://www.becode.org/partners/images/eddylacassaigne.jpg",
+    "link" : "https://www.linkedin.com/in/eddylacassaigne/"
+  },
+  {
+    "name" : "Ayaan",
+    "post" : "Marketing Officer",
+    "img" : "http://www.becode.org/partners/images/ayaan.jpg",
+    "link" : "https://www.linkedin.com/in/ayaan-jama-30456b47/"
+  },
+  {
+    "name" : "Tom",
+    "post" : "Marketing Officer",
+    "img" : "http://www.becode.org/partners/images/tom.jpg",
+    "link" : "https://www.linkedin.com/in/tom-crohin-915253138/"
+  },
+  {
+    "name" : "Emily",
+    "post" : "Code Guardian",
+    "img" : "http://www.becode.org/partners/images/emily.jpg",
+    "link" : "https://www.linkedin.com/in/emily-m-74989633/"
+  },
+  {
+    "name" : "Alexandre",
+    "post" : "Code Guardian",
+    "img" : "http://www.becode.org/partners/images/alexandre.jpg",
+    "link" : "https://www.linkedin.com/in/pixeline/"
+  },
+  {
+    "name" : "Bertrand",
+    "post" : "Code Guardian",
+    "img" : "http://www.becode.org/partners/images/invisible-man.jpg",
+    "link" : "https://www.linkedin.com/in/bertrand-marlair-156254150/"
+  },
+  {
+    "name" : "Eric",
+    "post" : "Code Guardian",
+    "img" : "http://www.becode.org/partners/images/eric.jpg",
+    "link" : "https://www.linkedin.com/in/eric-mangitukwa-salla-93364734/"
+  },
+  {
+    "name" : "Juan",
+    "post" : "Code Guardian",
+    "img" : "http://www.becode.org/partners/images/juan.jpg",
+    "link" : "https://www.linkedin.com/in/juan-cely-ramos-88353a134/"
+  },
+  {
+    "name" : "Teddy",
+    "post" : "Code Guardian",
+    "img" : "http://www.becode.org/partners/images/teddy.jpg",
+    "link" : "https://www.linkedin.com/in/teddykishi/"
+  }
+]
